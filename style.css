@@ -1,0 +1,276 @@
+.bg1 {
+ 
+  color: black;
+  background-image: url("bbb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
+  background-size: cover;
+
+}
+
+
+
+
+.bg2 {
+
+  color: Black;
+  background-image: url("bc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
+  background-size: cover;
+	  
+	  display: flex;
+  	flex-direction: column;
+  	align-items: center;
+    justify-content: flex-start;
+ 	  height: 100vh;
+}
+
+h1 {
+ 	letter-spacing: 10px;
+  margin-bottom: 20px;
+	padding: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+
+header img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border: 2px solid black;
+  
+}
+
+
+ul li {
+  font-size: 18px;
+}
+
+
+
+header h3 {
+  margin: 0;
+
+}
+
+header hr {
+  
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin: 20px 0;
+}
+
+main {
+  margin: 20px;
+}
+
+main h3 {
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+table th,
+table td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+
+
+
+form {
+ 	 background-color: #132994;
+ 	 padding: 20px;
+ 	 border-radius: 10px;
+ 	 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+ 	 text-align: center;
+
+
+}
+
+
+.hr1 {
+  border: 1px solid black;
+}
+
+.hr2 {
+  border: 1px solid black;
+}
+
+.hr3 {
+  border: 1px solid black;
+}
+
+
+.hr4 {
+  border: 1px solid black;
+}
+
+
+.hr5 {
+  border: 1px solid black;
+}
+
+
+
+
+.back {
+ background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ 
+}
+
+.back:hover {
+  background-color: white;
+  color: black;
+  
+}
+.submit {
+ background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.submit:hover {
+  background-color: white;
+  color: black;
+}
+.reset {
+ background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.reset:hover {
+  background-color: white;
+  color: black;
+  
+
+}
+
+.Facebook {
+ background-color: #e8e4c9; 
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transition: transform .2s;
+}
+.Facebook:hover {
+  background-color: blue;
+   color: #e8e4c9;
+   transform: scale(1.5);
+}
+.GH {
+  background-color: #e8e4c9;
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transition: transform .2s;
+}
+
+.GH:hover {
+  background-color: blue;
+   color: #e8e4c9;
+   transform: scale(1.5);
+}
+.Instagram {
+ background-color: #e8e4c9; 
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transition: transform .2s;
+}
+.Instagram:hover {
+  background-color: blue;
+  color: #e8e4c9;
+  transform: scale(1.5);
+}
+
+.LAM {
+ background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.LAM:hover {
+  background-color: white;
+ color: black;
+}
+
+
+
+
+
+.back {border-radius: 12px;}
+.reset {border-radius: 12px;}
+.submit {border-radius: 12px;}
+.Facebook {border-radius: 12px;}
+.GH {border-radius: 12px;}
+.Instagram{border-radius: 12px;}
+.LAM {border-radius: 12px;}
